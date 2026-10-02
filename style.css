@@ -12,7 +12,7 @@ a{color:inherit;text-decoration:none}ul{list-style:none}
 .logo b{font-size:42px;line-height:1;font-weight:700}
 .logo i{font-size:34px;color:var(--o);font-style:normal;line-height:1}
 .logo small{grid-column:1/3;font-size:9px;letter-spacing:.35em;font-weight:600;text-align:center;margin-top:4px}
-.logo .dm{position:absolute;left:30px;top:-14px;width:22px;height:22px;fill:none;stroke:var(--o);stroke-width:2}
+.logo .dm{position:absolute;left:55px;top:-22px;width:24px;height:28px;fill:var(--o);stroke:none}
 .logo.w{color:#fff}.logo:hover{transform:scale(1.08) rotate(-2deg)}
 
 /* nav */
@@ -26,10 +26,10 @@ a{color:inherit;text-decoration:none}ul{list-style:none}
 .back:hover{background:var(--o);transform:translateY(-4px) scale(1.07);box-shadow:0 12px 24px rgba(217,151,28,.45)}
 
 /* hero */
-.hero{position:relative;min-height:560px;padding:150px 8% 110px;background:linear-gradient(180deg,#a8cde6 0%,#f4e0a8 32%,#f0c47c 48%,#9a9a58 62%,#cfa379 78%,#cfa379 100%);overflow:hidden;border-radius:0 0 50% 50%/0 0 46px 46px}
+.hero{position:relative;min-height:560px;padding:150px 8% 150px;background:linear-gradient(180deg,#a8cde6 0%,#f4e0a8 32%,#f0c47c 48%,#9a9a58 62%,#cfa379 78%,#cfa379 100%);overflow:hidden;border-radius:0 0 50% 50%/0 0 46px 46px}
 .hero:before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 56% 30%,rgba(255,244,200,.9),transparent 30%)}
 .hero-txt{position:relative;z-index:3;max-width:470px}
-.sc1{font-size:24px;color:var(--g);display:block;transform:rotate(-6deg);margin-bottom:-8px}
+.sc1{font-size:24px;color:var(--g);display:block;transform:rotate(-6deg);margin-bottom:14px}
 h1{font-size:76px;line-height:1.05;color:var(--g);font-weight:400;transform:rotate(-6deg);transform-origin:left;text-shadow:0 3px 0 rgba(255,255,255,.4);position:relative;display:inline-block;margin-bottom:18px}
 h1:after{content:'';position:absolute;left:8%;right:-6%;bottom:-2px;height:4px;border-radius:4px;background:var(--o);transform:rotate(-4deg)}
 .sc2{font-size:18px;color:var(--g);transform:rotate(-4deg);margin-bottom:12px}
@@ -47,8 +47,7 @@ h1:after{content:'';position:absolute;left:8%;right:-6%;bottom:-2px;height:4px;b
 .slogan{position:absolute;z-index:3;top:120px;right:7%;text-align:center}
 .sc3{display:block;font-size:19px;color:var(--g);transform:rotate(-6deg);line-height:1.3;border-bottom:3px solid var(--o);padding-bottom:6px;transition:.3s}
 .sc3:hover{transform:rotate(0) scale(1.1)}
-.mq{width:110px;height:80px;fill:rgba(255,255,255,.55);stroke:none;position:absolute;right:-30px;top:30px;opacity:.7}
-.cars{position:absolute;z-index:2;right:0;bottom:40px;width:62%;max-width:760px}
+.cars{position:absolute;z-index:2;right:0;bottom:90px;width:62%;max-width:760px}
 .cars img{width:100%;display:block;-webkit-mask-image:linear-gradient(90deg,transparent,#000 14%),linear-gradient(0deg,transparent,#000 8%);mask-image:linear-gradient(90deg,transparent,#000 14%),linear-gradient(0deg,transparent,#000 8%);-webkit-mask-composite:source-in;mask-composite:intersect;transition:transform .5s,filter .5s}
 .cars:hover img{transform:scale(1.05);filter:saturate(1.2) brightness(1.06)}
 .pill{position:absolute;bottom:-52px;text-align:center;color:#fff;transition:.3s;cursor:pointer}
